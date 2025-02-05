@@ -31,4 +31,4 @@ This is an interactive web-based game where players test their color recognition
 
 ## Acknowledgemnt
 
-This project was inspired by and developed as part of [HNG12 internship](https://hng.tech/internship), a fast-paced bootcamp for learning digital skills.
+This project was inspired by and developed as part of the [HNG12 internship](https://hng.tech/internship), a fast-paced bootcamp for learning digital skills.
