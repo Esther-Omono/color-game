@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1A1A2E 0%, #16213E 100%);
+    padding: 20px;
+    color: #E0E0E0;
+}
+
+.game-wrapper {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    width: 100%;
+}
+
+.game-instructions {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.game-status-score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.game-status {
+    font-size: 1.2rem;
+    margin: 15px 0;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.game-info {
+    text-align: center;
+    margin: 5px 0;
+    font-size: 1rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.score {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #4CAF50;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    padding: 5px 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin: 0 5px;
+}
+
+.color-box {
+    width: 100%;
+    height: 100px;
+    border-radius: 15px;
+    margin: 15px 0;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.color-options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 2px 0;
+}
+
+.color-option {
+    width: 100%;
+    aspect-ratio: 1.3;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.new-game-btn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+    background: linear-gradient(135deg, #4CAF50 0%, #45A049 200%);
+    color: white;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+}
+
+/* Media Query */
+@media (max-width: 480px) {
+    .color-options {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+}
