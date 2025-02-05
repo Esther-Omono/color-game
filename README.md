@@ -1,6 +1,6 @@
 # Color Game
 
-This is an interactive web-based game where players test their color recognition skills by selecting the correct color from multiple options. It is also a project from [HNG12 internship](https://hng.tech/internship). The live version of the project can be found [here](https://color-game-estheromonos-projects.vercel.app/).
+This is an interactive web-based game where players test their color recognition skills by selecting the correct color from multiple options. It is a project from the [HNG12 internship](https://hng.tech/internship). The live version of the project can be found [here](https://color-game-estheromonos-projects.vercel.app/).
 
 ## Table of Content
 
